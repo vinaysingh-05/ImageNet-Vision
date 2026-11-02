@@ -198,6 +198,18 @@ streamlit run app.py
 
 ---
 
+##  UI
+
+<p align="center">
+  <img src="assets/ui/imagenet home page.png" alt="ImageNet Logo" width="95%" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1);" />
+</p>
+
+
+<p align="center">
+  <img src="assets/ui/predictionpage.png" alt="ImageNet Logo" width="95%" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1);" />
+</p>
+
+---
 ## ⚙️ Key Methods in `app.py`
 
 | Function / Component | Description |
