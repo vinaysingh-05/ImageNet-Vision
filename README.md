@@ -20,10 +20,10 @@
 <br />
 
 [⚡ Quickstart](#-quickstart-guide) •
+[🎨 UI Showcase](#-webpage-ui--visual-assets-showcase) •
 [🧠 How It Works](#-neural-network-deep-dive) •
-[🎨 UI & Architecture](#-interactive-ui-features) •
-[📂 Project Structure](#-repository-structure) •
-[📊 Top-2 Results Pipeline](#-prediction-pipeline)
+[🧪 Benchmarks](#-test-images--sample-benchmarks) •
+[📂 Structure](#-repository-structure)
 
 ---
 
@@ -35,9 +35,20 @@
 
 **ImageNet Vision** is a computer vision web platform providing real-time object classification across **1,000 distinct categories**. Powered by **ResNet-50** and hosted via an interactive **Streamlit** interface with a cyberpunk dark glassmorphic theme, it enables users to simply drag and drop any image to receive instant, ranked predictions with probability confidence scores.
 
+---
+
+## 🎨 Webpage UI & Visual Assets Showcase
+
+The application's interface is built with custom CSS glassmorphism, animated transitions, and custom visual assets:
+
 <div align="center">
-  <img src="assets/ui/resnet50.jpg" alt="ResNet-50 Architecture" width="300" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);" />
-  <p><em>Fig 1: Deep Residual Bottleneck Block with Identity Skip Connection</em></p>
+
+| UI Component | Asset Preview | Description & Usage |
+| :--- | :---: | :--- |
+| **Dark Theme Background** | <img src="assets/ui/theam back groud.jpeg" width="280" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.2);" /> | **Full Webpage Background (`theam back groud.jpeg`)**<br/>Applied as a fixed full-screen dark gradient backdrop with frosted glassmorphism overlays. |
+| **Branding & Header Logo** | <img src="assets/ui/imagenet logo.jpg" width="240" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.2);" /> | **Top Banner Logo (`imagenet logo.jpg`)**<br/>Featured in the long horizontal hero header and within the dataset information popup modal. |
+| **Residual Architecture** | <img src="assets/ui/resnet50.jpg" width="240" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.2);" /> | **Architecture Diagram (`resnet50.jpg`)**<br/>Illustrates the skip-connection bottleneck block; displayed in the architecture dialog and footer. |
+
 </div>
 
 ---
