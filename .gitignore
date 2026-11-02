@@ -1,0 +1,23 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large model weights (resnet50_model.keras is ~103MB; GitHub limits files to 100MB)
+*.keras
+*.h5
+models/*.keras
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
